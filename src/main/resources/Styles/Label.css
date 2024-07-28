@@ -1,0 +1,16 @@
+/* 
+    Created on : 28 dic. 2021, 15:10:07
+    Author     : kevin
+*/
+.activeLabel{
+    -fx-border-color: blue;
+}
+.hoverLabel:hover{
+    -fx-background-color: #4CAF50;
+    -fx-border-color: #3e8e41;
+    -fx-border-width: 50;
+    -fx-cursor: hand;
+}
+.disabledLabel:disabled{
+    -fx-opacity: 2;
+}

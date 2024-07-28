@@ -1,0 +1,85 @@
+.changeButton{
+    -fx-background-color: #4CAF50;
+    -fx-background-radius: 15 15 15 15;
+    -fx-background-insets: 2 2 2 2 ;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(one-pass-box, darkgreen, 0.0, 0.0, 0.0, 10);
+}
+.changeButton:hover{
+    -fx-background-color: #3e8e41;
+}
+
+.changeButton:pressed{
+    -fx-background-color: #3e8e41;
+    -fx-translate-y: 5;
+    -fx-effect: dropshadow(one-pass-box, darkgreen, 0.0, 0.0, 0.0, 5);
+}
+.backButton{
+    -fx-background-color: #4CAF50;
+    -fx-background-radius: 15 15 15 15;
+    -fx-background-insets: 2 2 2 2 ;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(one-pass-box, darkgreen, 0.0, 0.0, 0.0, 10);
+}
+.backButton:hover{
+    -fx-background-color: #3e8e41;
+}
+
+.backButton:pressed{
+    -fx-background-color: #3e8e41;
+    -fx-rotate: -10;
+    -fx-effect: dropshadow(one-pass-box, darkgreen, 0.0, 0.0, 0.0, 5);
+}
+
+.Redbutton{
+    -fx-background-color: #F70F0F;
+    -fx-background-radius: 15 15 15 15;
+    -fx-background-insets: 2 2 2 2 ;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(one-pass-box, darkred, 0.0, 0.0, 0.0, 10);
+    
+}
+.Redbutton:hover{
+    -fx-background-color: #FA5050;
+}
+
+.Redbutton:pressed {
+    -fx-background-color: #FA5050;
+    -fx-translate-y: 5;
+    -fx-effect: dropshadow(one-pass-box, darkred, 0.0, 0.0, 0.0, 5);
+}
+
+.optionButton{
+    -fx-background-color: #00ccff;
+    -fx-background-radius: 15 15 15 15;
+    -fx-background-insets: 2 2 2 2 ;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(one-pass-box, darkcyan, 0.0, 0.0, 0.0, 10);
+}
+.optionButton:hover{
+    -fx-background-color: #0099ff;
+}
+
+.optionButton:selected{
+    -fx-background-color: #0099ff;
+    -fx-translate-y: 5;
+    -fx-effect: dropshadow(one-pass-box, darkcyan, 0.0, 0.0, 0.0, 5);
+}
+
+.yellowButton{
+    -fx-background-color: #FCC203;
+    -fx-background-radius: 15 15 15 15;
+    -fx-background-insets: 2 2 2 2 ;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(one-pass-box, darkgoldenrod, 0.0, 0.0, 0.0, 10);
+    
+}
+.yellowButton:hover{
+    -fx-background-color: #F7CE45;
+}
+
+.yellowButton:pressed {
+    -fx-background-color: #F7CE45;
+    -fx-translate-y: 5;
+    -fx-effect: dropshadow(one-pass-box, darkgoldenrod, 0.0, 0.0, 0.0, 5);
+}
